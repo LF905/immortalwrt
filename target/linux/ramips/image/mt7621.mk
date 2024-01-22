@@ -1599,12 +1599,13 @@ define Device/skspruce_wia3300-10
   DEVICE_PACKAGES := kmod-mt7615d kmod-usb3 kmod-usb-ledtrig-usbport luci-app-mtwifi
 endef
 TARGET_DEVICES += skspruce_wia3300-10
-define Device/sim_simax1800t
+
+define Device/sim_ax1800t
   $(Device/haier-sim_wr1800k)
   DEVICE_VENDOR := SIM
-  DEVICE_MODEL := SIMAX1800T
+  DEVICE_MODEL := AX1800T
 endef
-TARGET_DEVICES += sim_simax1800t
+TARGET_DEVICES += sim_ax1800t
 
 define Device/storylink_sap-g3200u3
   $(Device/dsa-migration)

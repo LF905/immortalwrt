@@ -89,7 +89,7 @@ platform_do_upgrade() {
 	raisecom,msg1500-x-00|\
 	sercomm,na502|\
 	sercomm,na502s|\
-	sim,simax1800t|\
+	sim,ax1800t|\
 	xiaomi,mi-router-3g|\
 	xiaomi,mi-router-3-pro|\
 	xiaomi,mi-router-4|\
