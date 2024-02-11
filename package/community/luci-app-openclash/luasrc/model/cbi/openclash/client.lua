@@ -155,10 +155,11 @@ o.write = function()
 	SYS.call("/etc/init.d/openclash stop >/dev/null 2>&1 &")
 end
 
-dler = SimpleForm("openclash")
-dler.reset = false
-dler.submit = false
-dler:section(SimpleSection).template  = "openclash/dlercloud"
+d = SimpleForm("openclash")
+d.title = translate("Credits")
+d.reset = false
+d.submit = false
+d:section(SimpleSection).template  = "openclash/developer"
 
 if uci:get("openclash", "config", "dler_token") then
 	return m, dler, form, s, ap, d
