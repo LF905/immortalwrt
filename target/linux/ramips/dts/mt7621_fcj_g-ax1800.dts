@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
+
+#include "mt7621_haier-sim_wr1800k.dtsi"
+
+/ {
+	compatible = "fcj,g-ax1800", "mediatek,mt7621-soc";
+	model = "FCJ G-AX1800";
+};

@@ -678,6 +678,13 @@ define Device/firefly_firewrt
 endef
 TARGET_DEVICES += firefly_firewrt
 
+define Device/fcj_g-ax1800
+  $(Device/haier-sim_wr1800k)
+  DEVICE_VENDOR := FCJ
+  DEVICE_MODEL := G-AX1800
+endef
+TARGET_DEVICES += fcj_g-ax1800
+
 define Device/gehua_ghl-r-001
   $(Device/dsa-migration)
   IMAGE_SIZE := 32448k

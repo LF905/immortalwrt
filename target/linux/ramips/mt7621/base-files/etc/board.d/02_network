@@ -24,11 +24,12 @@ ramips_setup_interfaces()
 		ucidef_set_interface_lan "lan"
 		;;
 	ampedwireless,ally-r1900k|\
+	fcj,g-ax1800|\
 	h3c,tx1800-plus|\
 	h3c,tx1801-plus|\
 	h3c,tx1806|\
 	haier,har-20s2u1|\
-	sim,simax1800t|\
+	sim,ax1800t|\
 	hiwifi,hc5962|\
 	xwrt,wr1800k-ax-nand|\
 	xiaomi,mi-router-3-pro-nor|\
